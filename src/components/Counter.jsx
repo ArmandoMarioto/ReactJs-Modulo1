@@ -4,7 +4,7 @@ export function Counter(options) {
     const [value, setValue] = useState(initialValue);
 
     function increment() {
-        setValue(value + 1);
+        setValue(value + 2);
     }
 
     function decrement() {
